@@ -1,0 +1,20 @@
+[
+{ "title": "Eloise",
+"pages":12,
+"author": "Thompson",
+"isbn": 123,
+"genre": "comedy",
+"synopsis": " little girl living in the plaza hotel",
+"format":"book"
+
+},
+{
+  "title": "The Hungry Caterpillar",
+  "pages":6,
+  "author": "Eric Carle",
+  "isbn": 124,
+  "genre": "drama",
+  "synopsis": " A greedy Caterpillar becomes a butterfly",
+  "format":"book"
+}
+]
