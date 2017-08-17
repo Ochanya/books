@@ -7,15 +7,17 @@
   </head>
   <body>
     <h1>Olivia's Books Directory</h1>
+    {{#Book}}
     <div class="container">
       <div>
 
         <div class="user">
-            <img class="profile-img" src="{{bookImgUrl}}" alt="bookcover">
+            <img class="profile-img" src="{{imageURL}}" alt="bookcover">
             <div class="">
               <h2>{{title}}</h2>
-              <div class="">{{author}}</div>
-
+              {{#author}}
+              <div class="">{{firstName}}  {{lastName}}</div>
+              {{/author}}
               <span>ISBN: {{isbn}} | {{pages}}pages </span>
               <span>Genre:{{genre}} | Format:{{format}}</span>
               <p>{{synopsis}}</p>
@@ -28,5 +30,6 @@
 
       <!-- -->
     </div>
+    {{/Book}}
   </body>
 </html>

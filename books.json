@@ -1,20 +1,48 @@
 [
-{ "title": "Eloise",
-"pages":12,
-"author": "Thompson",
-"isbn": 123,
-"genre": "comedy",
-"synopsis": " little girl living in the plaza hotel",
-"format":"book"
+{ "title": "Eloise at the Plaza",
+  "pages":40,
+  "author": {"firstName":"Kay ",
+             "lastName":" Thompson"},
+  "isbn": 123,
+  "genre": "Satire",
+  "synopsis": " A cheeky six year old girl exposes the world of the affluent and those that cater to them as she explores the Plaza Hotel she so happens to live in.",
+  "format":"book",
+  "imageURL":"http://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781481451598/eloise-at-the-plaza-9781481451598_lg.jpg"
 
 },
+
 {
-  "title": "The Hungry Caterpillar",
-  "pages":6,
-  "author": "Eric Carle",
+  "title": "Mr. Brown Can Moo",
+  "pages":25,
+  "author": {"firstName":"Dr.",
+             "lastName":" Suess"},
+  "isbn": 128,
+  "genre": "Poetry",
+  "synopsis": " Mr. Brown displays his extraordinary talent of imitating various sounds.",
+  "format":"e-book",
+  "imageURL":"https://pictures.abebooks.com/isbn/9780679882824-us-300.jpg"
+},
+{
+  "title": "Courdroy",
+  "pages":35,
+  "author": {"firstName":"Don",
+             "lastName":"Freeman"},
+  "isbn": 125,
+  "genre": "Action and Adventure",
+  "synopsis": " Courdroy, the teddy bear, goes on an epic adventure to find his missing button in order to secure a home. ",
+  "format":"e-book",
+  "imageURL":"http://www.corduroybook.com/images/book-corduroy.jpg"
+},
+{
+  "title": "Goodnight Moon",
+  "pages":32,
+  "author": {"firstName":"Maragret",
+             "lastName":"Wise Brown"},
   "isbn": 124,
   "genre": "drama",
-  "synopsis": " A greedy Caterpillar becomes a butterfly",
-  "format":"book"
+  "synopsis": " A little bunny trying to catch some z's",
+  "format":"book",
+  "imageURL":"https://lh4.ggpht.com/VnPzs4jr-QVhj23qQ1WH-pAJvEgkPlGXxA5aUzSFKGlcHuZPp16kZ6xNRDzkVRhoTAPo=w300-rw"
 }
+
 ]
