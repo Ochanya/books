@@ -9,26 +9,34 @@
     <h1>Olivia's Books Directory</h1>
     {{#Book}}
     <div class="container">
-      <div>
-
         <div class="user">
+          <div class="key-container">
             <img class="profile-img" src="{{imageURL}}" alt="bookcover">
-            <div class="">
-              <h2>{{title}}</h2>
-              {{#author}}
-              <div class="">{{firstName}}  {{lastName}}</div>
-              {{/author}}
-              <span>ISBN: {{isbn}} | {{pages}}pages </span>
-              <span>Genre:{{genre}} | Format:{{format}}</span>
-              <p>{{synopsis}}</p>
-
+          </div>
+          <div class="key-container">
+            <h2>{{title}}</h2>
+          </div>
+          <div class="key-container">
+            {{#author}}
+            <h3 class="">{{firstName}}  {{lastName}}</h3>
+            {{/author}}
+          </div>
+          <div class="key-container">
+            <div class="key"> ISBN:</div> <div class="key"> {{isbn}}</div>
+          </div>
+          <div class="key-container">
+            <div class="key"> Genre:</div> <div class="key"> {{genre}} </div>
+          </div>
+          <div class="key-container">
+            <div class="key"> Format:</div> <div class="key"> {{format}}</div>
+          </div>
+          <div class="key-container">
+            <div class="key"> pages:<div> <div class="key">{{pages}}</div>
+          </div>
+          <div class="key-container">
+            <p>{{synopsis}}</p>
           </div>
         </div>
-        <div class="user">
-        </div>
-      </div>
-
-      <!-- -->
     </div>
     {{/Book}}
   </body>
